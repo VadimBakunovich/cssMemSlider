@@ -165,5 +165,12 @@ label:active span { transform: scale(.93); }
     flex-direction: column-reverse;
     align-items: flex-start;
   }
-  .ctrl { margin: 0 auto min(3.7vh, 3.7vw) auto; }
+  .ctrl {
+    margin: 0 auto min(3.7vh, 3.7vw) auto;
+    width: min(29vh, 47vw);
+  }
+  label {
+    width: min(4.6vh, 8.2vw);
+    height: min(4.6vh, 8.2vw);
+  }
 }
