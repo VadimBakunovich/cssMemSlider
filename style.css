@@ -61,8 +61,8 @@ input { display: none; }
   visibility: hidden;
   font-size: 0;
   opacity: 0;
-  transform: translateX(30%);
-  transition: opacity .3s, transform .3s;
+  transform: translateX(100%);
+  transition: opacity .5s, transform .3s;
 }
 .ctrl {
   width: min(25vh, 40vw);
