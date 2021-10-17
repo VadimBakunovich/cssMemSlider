@@ -148,3 +148,22 @@ label:active span { transform: scale(.93); }
   opacity: 1;
   transform: translateX(0);
 }
+@media (max-width: 1024px) {
+
+  .container {
+    margin: 18vh auto;
+    width: min(100vh, 90vw);
+    padding: max(2vh, 2vw) 0;
+  }
+  .slider { height: min(67vh, 70vw); }
+
+  .slides {
+    height: min(55vh, 73%);
+    margin-bottom: min(2vh, 2vw);
+  }
+  .txt-ctrl {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .ctrl { margin: 0 auto min(3.7vh, 3.7vw) auto; }
+}
